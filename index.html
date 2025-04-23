@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Tuyet Nhi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="\images\me.jpg" alt="Nguyen Tuyet Nhi">
+            <h1>NGUYEN TUYET NHI</h1>
+            <p>Third-Year Information Technology Student</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>I am a third-year Information Technology student, eager to develop myself by participating in real-world projects and learning from a professional work environment. I hope to contribute practical value to the organization while continuously improving my skills.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>Programming</h4>
+                    <p>C++, C#, SQL</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Software Development</h4>
+                    <p>Understanding of SDLC & STLC</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Testing Processes</h4>
+                    <p>Creating and executing test cases</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Soft Skills</h4>
+                    <p>Teamwork, Problem-solving, Time management, Communication</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-card">
+                    <h4>English Quiz Application</h4>
+                    <span class="role-badge">Front-end Developer and Tester</span>
+                    <p><strong>Responsibilities:</strong></p>
+                    <ul>
+                        <li>Designed the UI/UX interface on Figma</li>
+                        <li>Identified, reported, and tracked UI/UX issues and bugs</li>
+                        <li>Created and executed test cases to verify quiz functions</li>
+                    </ul>
+                    <p class="result"><strong>Result:</strong> Identified and reported critical bugs, improving application stability</p>
+                </div>
+                <div class="experience-card">
+                    <h4>Graph Theory Website</h4>
+                    <span class="role-badge">Front-end Developer and Tester</span>
+                    <p><strong>Description:</strong></p>
+                    <ul>
+                        <li>Developed an interactive web application using JavaScript</li>
+                        <li>Visualized singly linked list algorithms</li>
+                        <li>Performed cross-browser testing</li>
+                    </ul>
+                    <p class="result"><strong>Result:</strong> Ensured consistent experience across browsers and devices</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="contact-links">
+            <a href="mailto:tuyetnhi@example.com">Email</a>
+            <a href="https://linkedin.com/in/tuyetnhi" target="_blank">LinkedIn</a>
+            <a href="https://github.com/tuyetnhi" target="_blank">GitHub</a>
+        </div>
+        <p>© 2025 Nguyen Tuyet Nhi. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
